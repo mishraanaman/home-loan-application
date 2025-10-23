@@ -1,0 +1,71 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Sensitive Information ###
+# Environment variables and configuration files with credentials
+.env
+.env.local
+.env.*.local
+application-local.properties
+application-prod.properties
+application-dev.properties
+application-secret.properties
+
+# Database files
+*.db
+*.sqlite
+
+# Security files
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+*.truststore
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
